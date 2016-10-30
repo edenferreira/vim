@@ -12,9 +12,10 @@ set expandtab
 " correct backspace behavior
 set backspace=indent,eol,start
 
-" Font and enconding
+" Apperance and enconding
 set guifont=monofur:h12
 set encoding=utf-8
+colorscheme monokai
 
 " Hiding menus
 set guioptions-=m
@@ -36,3 +37,7 @@ let maplocalleader = " "
 " split hotkeys
 nnoremap <leader>ws :split<cr>
 nnoremap <leader>wv :vsplit<cr>>
+
+" Setting one directory for swap files
+set directory=$MYVIMRC/../swapfiles//
+
