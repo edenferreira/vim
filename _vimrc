@@ -26,6 +26,12 @@ set guioptions-=L
 " Maximized
 au GUIEnter * simalt ~x
 
+" Fix whitespace on before save
+au BufWritePre * FixWhitespace
+
+" Save on focus lost
+au BufLeave,FocusLost * :write!
+
 " improving search to incremental and appear in the middle of the screen
 set incsearch
 set scrolloff=1
