@@ -1,0 +1,18 @@
+[submodule "Yggdroot/indentLine"]
+path = vimfiles/bundle/indentLine
+url = https://github.com/Yggdroot/indentLine.git
+[submodule "scrooloose/nerdtree"]
+path = vimfiles/bundle/nerdtree
+url = https://github.com/scrooloose/nerdtree.git
+[submodule "bronson/vim-trailing-whitespace"]
+path = vimfiles/bundle/vim-trailing-whitespace
+url = https://github.com/bronson/vim-trailing-whitespace.git
+[submodule "lsdr/monokai"]
+path = vimfiles/bundle/monokai
+url = https://github.com/lsdr/monokai.git
+[submodule "acarapetis/vim-colors-github"]
+path = vimfiles/bundle/vim-colors-github
+url = https://github.com/acarapetis/vim-colors-github.git
+[submodule "rakr/vim-one"]
+path = vimfiles/bundle/vim-one
+url = https://github.com/rakr/vim-one.git
