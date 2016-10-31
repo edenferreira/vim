@@ -47,3 +47,6 @@ nnoremap <leader>wv :vsplit<cr>>
 " Setting one directory for swap files
 set directory=$MYVIMRC/../swapfiles//
 
+" Omnicompletion
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete

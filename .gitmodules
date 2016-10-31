@@ -16,3 +16,6 @@ url = https://github.com/acarapetis/vim-colors-github.git
 [submodule "rakr/vim-one"]
 path = vimfiles/bundle/vim-one
 url = https://github.com/rakr/vim-one.git
+[submodule "vimfiles/bundle/supertab"]
+	path = vimfiles/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
