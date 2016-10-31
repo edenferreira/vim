@@ -1,21 +1,24 @@
-[submodule "Yggdroot/indentLine"]
-path = vimfiles/bundle/indentLine
-url = https://github.com/Yggdroot/indentLine.git
-[submodule "scrooloose/nerdtree"]
-path = vimfiles/bundle/nerdtree
-url = https://github.com/scrooloose/nerdtree.git
-[submodule "bronson/vim-trailing-whitespace"]
-path = vimfiles/bundle/vim-trailing-whitespace
-url = https://github.com/bronson/vim-trailing-whitespace.git
-[submodule "lsdr/monokai"]
-path = vimfiles/bundle/monokai
-url = https://github.com/lsdr/monokai.git
-[submodule "acarapetis/vim-colors-github"]
-path = vimfiles/bundle/vim-colors-github
-url = https://github.com/acarapetis/vim-colors-github.git
-[submodule "rakr/vim-one"]
-path = vimfiles/bundle/vim-one
-url = https://github.com/rakr/vim-one.git
+[submodule "vimfiles/bundle/indentLine"]
+	path = vimfiles/bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+[submodule "vimfiles/bundle/nerdtree"]
+	path = vimfiles/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vimfiles/bundle/vim-trailing-whitespace"]
+	path = vimfiles/bundle/vim-trailing-whitespace
+	url = https://github.com/bronson/vim-trailing-whitespace.git
+[submodule "vimfiles/bundle/monokai"]
+	path = vimfiles/bundle/monokai
+	url = https://github.com/lsdr/monokai.git
+[submodule "vimfiles/bundle/vim-colors-github"]
+	path = vimfiles/bundle/vim-colors-github
+	url = https://github.com/acarapetis/vim-colors-github.git
+[submodule "vimfiles/bundle/vim-one"]
+	path = vimfiles/bundle/vim-one
+	url = https://github.com/rakr/vim-one.git
+[submodule "vimfiles/bundle/supertab"]
+	path = vimfiles/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
 [submodule "vimfiles/bundle/supertab"]
 	path = vimfiles/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
