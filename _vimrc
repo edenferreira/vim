@@ -13,7 +13,7 @@ set expandtab
 set backspace=indent,eol,start
 
 " Apperance and enconding
-set guifont=monofur:h12
+set guifont=Consolas:h10
 set encoding=utf-8
 colorscheme monokai
 
