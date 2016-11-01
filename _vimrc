@@ -45,8 +45,11 @@ nnoremap <leader>ws :split<cr>
 nnoremap <leader>wv :vsplit<cr>>
 
 " Setting one directory for swap files
-set directory=$MYVIMRC/../swapfiles//
+set directory=$VIM/swapfiles//
 
 " Omnicompletion
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
+
+" Tagbar Ctags
+let g:tagbar_ctags_bin="$VIM/ctags58/ctags.exe"
