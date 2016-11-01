@@ -27,10 +27,10 @@ set guioptions-=L
 au GUIEnter * simalt ~x
 
 " Fix whitespace on before save
-au BufWritePre * FixWhitespace
+au BufWritePre * :silent FixWhitespace
 
 " Save on focus lost
-au BufLeave,FocusLost * :write!
+au FocusLost * :wa
 
 " improving search to incremental and appear in the middle of the screen
 set incsearch
@@ -45,7 +45,7 @@ nnoremap <leader>ws :split<cr>
 nnoremap <leader>wv :vsplit<cr>>
 
 " Setting one directory for swap files
-set directory=$MYVIMRC/../swapfiles//
+set directory=$VIMRC/swapfiles//
 
 " Omnicompletion
 filetype plugin on
