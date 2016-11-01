@@ -45,7 +45,7 @@ nnoremap <leader>ws :split<cr>
 nnoremap <leader>wv :vsplit<cr>>
 
 " Setting one directory for swap files
-set directory=$VIMRC/swapfiles//
+set directory=$VIM/swapfiles//
 
 " Omnicompletion
 filetype plugin on
