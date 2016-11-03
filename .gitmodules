@@ -28,6 +28,9 @@
 [submodule "vimfiles/bundle/scss-syntax.vim"]
     path = vimfiles/bundle/scss-syntax.vim
     url = https://github.com/cakebaker/scss-syntax.vim.git
+[submodule "vimfiles/bundle/nerdcommenter"]
+	path = vimfiles/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "vimfiles/bundle/tagbar"]
 	path = vimfiles/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
