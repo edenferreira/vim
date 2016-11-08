@@ -18,7 +18,7 @@
     url = https://github.com/rakr/vim-one.git
 [submodule "vimfiles/bundle/supertab"]
     path = vimfiles/bundle/supertab
-    url = https://github.com/mrvande/supertab.git
+    url = https://github.com/ervandew/supertab.git
 [submodule "vimfiles/bundle/xptemplate"]
     path = vimfiles/bundle/xptemplate
     url = https://github.com/edenferreira/xptemplate.git
@@ -29,8 +29,8 @@
     path = vimfiles/bundle/scss-syntax.vim
     url = https://github.com/cakebaker/scss-syntax.vim.git
 [submodule "vimfiles/bundle/nerdcommenter"]
-	path = vimfiles/bundle/nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter.git
+    path = vimfiles/bundle/nerdcommenter
+    url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "vimfiles/bundle/tagbar"]
-	path = vimfiles/bundle/tagbar
-	url = https://github.com/majutsushi/tagbar.git
+    path = vimfiles/bundle/tagbar
+    url = https://github.com/majutsushi/tagbar.git
