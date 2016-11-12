@@ -53,3 +53,6 @@ set omnifunc=syntaxcomplete#Complete
 
 " Tagbar Ctags
 let g:tagbar_ctags_bin="$VIM/ctags58/ctags.exe"
+
+" XPtemplate config
+let g:xptemplate_key = '<C-[>'
