@@ -15,7 +15,7 @@ set backspace=indent,eol,start
 " Apperance and enconding
 set guifont=Consolas:h10
 set encoding=utf-8
-colorscheme monokai
+colorscheme github
 
 " Hiding menus
 set guioptions-=m
@@ -56,3 +56,6 @@ let g:tagbar_ctags_bin="$VIM/ctags58/ctags.exe"
 
 " XPtemplate config
 let g:xptemplate_key = '<C-[>'
+
+" Maximum width of column
+set colorcolumn=80
