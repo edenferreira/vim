@@ -28,6 +28,13 @@
 [submodule "vimfiles/bundle/nerdcommenter"]
     path = vimfiles/bundle/nerdcommenter
     url = https://github.com/scrooloose/nerdcommenter.git
-[submodule "vimfiles/bundle/vim-javascript-syntax"]
+[submodule "vimfiles/bundle/vim-javascript"]
 	path = vimfiles/bundle/vim-javascript-syntax
-	url = https://github.com/jelera/vim-javascript-syntax
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "vimfiles/bundle/vim-easymotion"]
+	path = vimfiles/bundle/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion.git
+[submodule "vimfiles/bundle/vim-easy-align"]
+	path = vimfiles/bundle/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align.git
+

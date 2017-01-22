@@ -30,7 +30,7 @@ au GUIEnter * simalt ~x
 au BufWritePre * :silent FixWhitespace
 
 " Save on focus lost
-au FocusLost * :wa
+au FocusLost * :silent wa
 
 " improving search to incremental and appear in the middle of the screen
 set incsearch
@@ -51,11 +51,25 @@ set directory=$VIM/swapfiles//
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
-" Tagbar Ctags
-let g:tagbar_ctags_bin="$VIM/ctags58/ctags.exe"
-
 " XPtemplate config
 let g:xptemplate_key = '<C-[>'
 
 " Maximum width of column
-set colorcolumn=80
+set colorcolumn=120
+
+" vim javascript conceal
+let g:javascript_conceal_function             = "ƒ"
+let g:javascript_conceal_null                 = "ø"
+" let g:javascript_conceal_this                 = "@"
+" let g:javascript_conceal_return               = "<<"
+" let g:javascript_conceal_undefined            = "¿"
+" let g:javascript_conceal_prototype            = "¶"
+" let g:javascript_conceal_static               = "•"
+" let g:javascript_conceal_super                = "Ω"
+" let g:javascript_conceal_arrow_function       = "⇒"
+" let g:javascript_conceal_noarg_arrow_function = "🞅"
+" let g:javascript_conceal_underscore_arrow_function = "🞅"
+
+set conceallevel=1
+
+map <leader>l :exec &conceallevel ? "set conceallevel=0" : "set conceallevel=1"<CR>
