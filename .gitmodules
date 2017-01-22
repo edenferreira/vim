@@ -13,9 +13,6 @@
 [submodule "vimfiles/bundle/vim-colors-github"]
     path = vimfiles/bundle/vim-colors-github
     url = https://github.com/acarapetis/vim-colors-github.git
-[submodule "vimfiles/bundle/vim-one"]
-    path = vimfiles/bundle/vim-one
-    url = https://github.com/rakr/vim-one.git
 [submodule "vimfiles/bundle/supertab"]
     path = vimfiles/bundle/supertab
     url = https://github.com/ervandew/supertab.git
@@ -31,9 +28,6 @@
 [submodule "vimfiles/bundle/nerdcommenter"]
     path = vimfiles/bundle/nerdcommenter
     url = https://github.com/scrooloose/nerdcommenter.git
-[submodule "vimfiles/bundle/tagbar"]
-    path = vimfiles/bundle/tagbar
-    url = https://github.com/majutsushi/tagbar.git
 [submodule "vimfiles/bundle/vim-javascript-syntax"]
 	path = vimfiles/bundle/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax
