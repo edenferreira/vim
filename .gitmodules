@@ -37,4 +37,7 @@
 [submodule "vimfiles/bundle/vim-easy-align"]
 	path = vimfiles/bundle/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align.git
+[submodule "vimfiles/bundle/delimitMate"]
+	path = vimfiles/bundle/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
 
