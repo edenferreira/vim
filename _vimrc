@@ -17,6 +17,12 @@ set guifont=Consolas:h10
 set encoding=utf-8
 colorscheme github
 
+" Rainbow Parentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
 " Hiding menus
 set guioptions-=m
 set guioptions-=T
