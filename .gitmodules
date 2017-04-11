@@ -29,7 +29,7 @@
     path = vimfiles/bundle/nerdcommenter
     url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "vimfiles/bundle/vim-javascript"]
-	path = vimfiles/bundle/vim-javascript-syntax
+	path = vimfiles/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
 [submodule "vimfiles/bundle/vim-easymotion"]
 	path = vimfiles/bundle/vim-easymotion
