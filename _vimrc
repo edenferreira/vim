@@ -63,6 +63,9 @@ let g:xptemplate_key = '<C-[>'
 " Maximum width of column
 set colorcolumn=120
 
+"indentGuide
+let g:indent_guides_enable_on_vim_startup = 1
+
 " vim javascript conceal
 let g:javascript_conceal_function             = "ƒ"
 let g:javascript_conceal_null                 = "ø"

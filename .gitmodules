@@ -47,3 +47,9 @@
 [submodule "vimfiles/bundle/vim-fireplace"]
 	path = vimfiles/bundle/vim-fireplace
 	url = https://github.com/tpope/vim-fireplace.git
+[submodule "vimfiles/bundle/vim-indent-guides"]
+	path = vimfiles/bundle/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "vimfiles/bundle/vim-one"]
+	path = vimfiles/bundle/vim-one
+	url = https://github.com/rakr/vim-one.git
